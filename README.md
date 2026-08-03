@@ -1,5 +1,3 @@
-# ml-algorithm-implementations
-
 # Machine Learning & Deep Learning Implementations
 
 A comprehensive archive of foundational to advanced Machine Learning, Deep Learning, and Reinforcement Learning algorithms. This repository emphasizes **building models from the ground up**, understanding mathematical mechanics, and systematic **performance tuning and evaluation** across various datasets.
