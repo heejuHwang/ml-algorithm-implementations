@@ -20,7 +20,7 @@ A comprehensive archive of foundational to advanced Machine Learning, Deep Learn
 ### 3. Reinforcement Learning
 | Project / Domain | Implemented Algorithms | Key Tech / Methods | Summary of Results | View |
 | :--- | :--- | :--- | :--- | :---: |
-
+| **MDP to n-step Double Q-learning** | `Custom MDP (Gymnasium)`, `SARSA (On-Policy)`, `n-step Double Q-Learning` | Temporal-Difference Control, Safety in AI Protocols, $\epsilon$-decay Tuning, Two-Q-table Bias Mitigation | SARSA achieved superior stability and faster convergence compared to n-step Double Q-learning ($n=3$); implemented boundary safety validation without external RL solvers | [🔗 Code](./03-reinforcement-learning/mdp-to-nstep-double-q-learning) |
 ---
 
 ## 📁 Repository Structure
@@ -39,3 +39,8 @@ ml-algorithm-implementations/
 │       ├── 02_binary_classification_nn_optimization.ipynb
 │       ├── 03_emnist_cnn_classification.ipynb
 │       └── 04_emnist_vgg13_adaptation.ipynb
+├──03-reinforcement-learning
+│   └── mdp-to-nstep-double-q-learning
+│       ├── 01_environment_definition_and_safety_test.ipynb
+│       ├── 02_sarsa_tabular_implementation.ipynb
+│       └── 03_nstep_double_q_learning_analysis.ipynb
